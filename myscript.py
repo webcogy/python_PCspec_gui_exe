@@ -46,8 +46,8 @@ treeview.heading("two", text="내사양", anchor="center")
 # 표에 삽입될 데이터
 treelist = [
     ("CPU count", cpu_count),
-    ("Bani", cpu_freq),
-    ("Boni", f"{cpu_percent}%"),
+    ("CPU frequency", cpu_freq),
+    ("CPU usage", f"{cpu_percent}%"),
     ("Total memory", f"{total_memory} bytes"),
     ("Available memory", f"{available_memory} bytes"),
     ("Used memory", f"{used_memory} bytes"),
